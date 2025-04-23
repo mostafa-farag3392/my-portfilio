@@ -1,0 +1,56 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base background -->
+  <rect width="1200" height="800" fill="#121212"/>
+  
+  <!-- Abstract code/development pattern elements -->
+  <!-- Grid lines -->
+  <g opacity="0.1">
+    <path d="M0 100 H1200" stroke="#ffffff" stroke-width="1"/>
+    <path d="M0 200 H1200" stroke="#ffffff" stroke-width="1"/>
+    <path d="M0 300 H1200" stroke="#ffffff" stroke-width="1"/>
+    <path d="M0 400 H1200" stroke="#ffffff" stroke-width="1"/>
+    <path d="M0 500 H1200" stroke="#ffffff" stroke-width="1"/>
+    <path d="M0 600 H1200" stroke="#ffffff" stroke-width="1"/>
+    <path d="M0 700 H1200" stroke="#ffffff" stroke-width="1"/>
+    
+    <path d="M100 0 V800" stroke="#ffffff" stroke-width="1"/>
+    <path d="M300 0 V800" stroke="#ffffff" stroke-width="1"/>
+    <path d="M500 0 V800" stroke="#ffffff" stroke-width="1"/>
+    <path d="M700 0 V800" stroke="#ffffff" stroke-width="1"/>
+    <path d="M900 0 V800" stroke="#ffffff" stroke-width="1"/>
+    <path d="M1100 0 V800" stroke="#ffffff" stroke-width="1"/>
+  </g>
+  
+  <!-- Code elements -->
+  <g opacity="0.15">
+    <!-- Code brackets and symbols scattered around -->
+    <text x="150" y="180" font-family="monospace" font-size="70" fill="#ffffff">{</text>
+    <text x="1000" y="400" font-family="monospace" font-size="70" fill="#ffffff">}</text>
+    <text x="300" y="600" font-family="monospace" font-size="50" fill="#ffffff">()</text>
+    <text x="800" y="220" font-family="monospace" font-size="50" fill="#ffffff">[]</text>
+    <text x="500" y="350" font-family="monospace" font-size="40" fill="#ffffff">&lt;/&gt;</text>
+    <text x="950" y="650" font-family="monospace" font-size="30" fill="#ffffff">//</text>
+    <text x="250" y="450" font-family="monospace" font-size="25" fill="#ffffff">function()</text>
+    <text x="700" y="550" font-family="monospace" font-size="25" fill="#ffffff">return</text>
+  </g>
+  
+  <!-- Gradient accent spots -->
+  <circle cx="200" cy="150" r="300" fill="url(#radialGrad1)" opacity="0.15"/>
+  <circle cx="1000" cy="600" r="350" fill="url(#radialGrad2)" opacity="0.1"/>
+  
+  <!-- Subtle corner accent -->
+  <path d="M0 0 L200 0 L0 200 Z" fill="#212121"/>
+  <path d="M1200 800 L1000 800 L1200 600 Z" fill="#212121"/>
+  
+  <!-- Defined gradients -->
+  <defs>
+    <radialGradient id="radialGrad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#4d94ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radialGrad2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#333333" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

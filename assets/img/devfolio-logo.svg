@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background shape -->
+  <rect x="50" y="50" width="300" height="100" rx="10" fill="black" />
+  
+  <!-- Main text -->
+  <text x="200" y="100" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="white">devfolio</text>
+  
+  <!-- Tagline/Name -->
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#aaaaaa">Mostafa Farag</text>
+  
+  <!-- Code bracket accents -->
+  <path d="M30 80 L50 60 L40 50 L10 80 L40 110 L50 100 L30 80" fill="black" stroke="white" stroke-width="2" />
+  <path d="M370 80 L350 60 L360 50 L390 80 L360 110 L350 100 L370 80" fill="black" stroke="white" stroke-width="2" />
+  
+  <!-- Dot accent simulating code dot -->
+  <circle cx="195" y="145" r="5" fill="#4d94ff" />
+</svg>
